@@ -1,0 +1,42 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "conf.js",
+  "directories": {
+    "test": "tests"
+  },
+  "devDependencies": {
+    "base64url": "^2.0.0",
+    "create-hmac": "^1.1.6",
+    "crypto-js": "^3.1.9-1",
+    "dateformat": "^3.0.2",
+    "jasmine-params": "^0.3.2",
+    "moment": "^2.19.4",
+    "mongodb": "^3.0.0-rc0",
+    "mysql": "^2.15.0",
+    "node-ssh": "^5.0.0",
+    "randombytes": "^2.0.5",
+    "request": "^2.83.0",
+    "short-unique-id": "^1.1.0",
+    "utf8": "^3.0.0",
+    "xml2js": "^0.4.19",
+    "xmldom": "^0.1.27",
+    "xpath": "^0.0.27"
+  },
+  "dependencies": {
+    "jasmine-reporters": "^2.2.1",
+    "jasmine-spec-reporter": "^4.2.1",
+    "mds.angular.datetimepicker": "^2.0.7",
+    "protractor": "^5.2.2"
+  },
+  "scripts": {
+    "test": "node_modules/protractor/bin/protractor conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "kaiser",
+  "license": "ISC"
+}
