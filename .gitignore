@@ -4,3 +4,5 @@ demo/package-lock.json
 demo/node_modules/
 network/node_modules/
 network/package-lock.json
+working/network/node_modules/
+working/network/package-lock.json
